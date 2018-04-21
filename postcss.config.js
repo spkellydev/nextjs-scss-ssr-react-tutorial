@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: [require("autoprefixer")({})]
+  plugins: [
+    require("postcss-easy-import")({ prefix: "_" }),
+    require("tailwindcss")("./tailwind.js"),
+    require("autoprefixer")({})
+  ]
 };

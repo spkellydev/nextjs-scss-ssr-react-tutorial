@@ -1,5 +1,5 @@
 const About = () => (
-  <section>
+  <section className="page-section">
     <h1>About Next JS</h1>
     <p>
       <span>

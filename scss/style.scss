@@ -1,4 +1,11 @@
+@tailwind preflight;
+@tailwind utilities;
+
 @import "_vars.scss";
+
+.page-section {
+  @apply .bg-blue-lightest .py-6 .px-4;
+}
 
 nav {
   padding: 10px;
