@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Sean\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Sean\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\VVV\vv\vv;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\HashiCorp\Vagrant\bin;C:\tools\php72;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\Sean\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Sean\AppData\Local\Programs\Python\Python36-32;C:\Ruby23-x64\bin;C:\Users\Sean\Downloads\phantomjs-2.1.1-windows\bin;C:\Users\Sean\AppData\Local\Microsoft\WindowsApps;C:\Python27;C:\Program Files\Heroku\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Sublime Text 3;C:\Users\Sean\AppData\Roaming\Composer\vendor\bin;C:\composer;C:\Users\Sean\AppData\Local\Yarn\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Sean\AppData\Local\Microsoft\WindowsApps;C:\gocode\bin;C:\phantomjs-2.1.1-windows\bin\phantonjs.exe;C:\Users\Sean\AppData\Roaming\npm\node_modules\casperjs\bin\casperjs;C:\Users\Sean\AppData\Roaming\npm;C:\mysql-shell-1.0.11-windows-x86-32bit\bin;C:\tools\mysql\current\bin;C:\ngrok;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.1.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Program Files (x86)\Yarn\lib\cli.js:86923:59)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:81471:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:92:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:103:13
+      at <anonymous>
