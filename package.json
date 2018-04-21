@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-sass": "^0.1.2",
     "next": "^5.1.0",
+    "node-sass": "^4.8.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   }
