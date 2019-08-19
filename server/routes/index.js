@@ -1,8 +1,16 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/movies", (req, res) => {
-  res.end("We made it! And it's great");
-});
+function routes(app) {
+  router.get("/movies", (req, res) => {
+    res.end("We made it! And it's great");
+  });
+  
+  router.get("/movies/:id", (req, res) => {
+    return app.render(req, res, "/movies", { id: req.params.id });
+  });
 
-module.exports = router;
+  return router;
+};
+
+module.exports = routes;
