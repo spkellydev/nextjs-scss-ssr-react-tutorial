@@ -12,7 +12,7 @@ app
     const server = express();
     const showRoutes = require("./routes/index.js");
 
-    server.use("/api", showRoutes);
+    server.use("/api", showRoutes(server));
 
     server.get("*", (req, res) => {
       return handle(req, res);
