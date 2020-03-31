@@ -15,7 +15,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-wrap-in-js": "^1.1.1",
     "express": "^4.16.3",
-    "next": "^9.0.3",
+    "next": "^9.3.2",
     "node-sass": "^4.8.3",
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^3.0.0",
